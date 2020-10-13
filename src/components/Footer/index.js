@@ -6,7 +6,7 @@ function Footer() {
     <FooterBase>
       <p>Eraldo dos Santos Neto</p>
       <p>
-        Orgulhosamente criado durante a Imersão React da Alura
+        Primeiro Treinamento de React
       </p>
     </FooterBase>
   );
