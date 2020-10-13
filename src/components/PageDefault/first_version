@@ -1,0 +1,20 @@
+import React from 'react';
+import Footer from '../Footer';
+import Header from '../Header';
+
+function PageDefault() {
+    return (
+        <div>
+            <Header />,
+                {/* conteudo das paginas magicamente vira parar aqui */}
+            <Footer />
+        </div>
+    );
+}
+
+/*
+Logo apos alter o menu para fazer o SPA
+Cairemos aqui
+*/
+
+export default PageDefault;

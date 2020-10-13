@@ -1,0 +1,33 @@
+import React from 'react';
+import Footer from '../Footer';
+import Header from '../Header';
+
+function PageDefault({ children }) {
+    return (
+        <div>
+            <Header />
+                {children}
+            <Footer />
+        </div>
+    );
+}
+
+Apos alterar a pagina de cadastro para utilizar o Page Default
+
+iremos chamar o children
+
+então na declaração da função chamaremos as props
+
+function PageDefault(props) {
+    e entre o header e o footer chamaremos 
+    {props.children}
+
+porem esse props é um objeto e podemos abrir ele e pegar diretamente o conteudo
+function PageDefault({ children }) {
+    e entre o header e o footer chamaremos 
+    {children}
+
+O nome desse comportamento é destruction
+vamos para a pagina de cadastro de video novamente 
+
+*** Ir apra a pagina de cadastro de video ***
